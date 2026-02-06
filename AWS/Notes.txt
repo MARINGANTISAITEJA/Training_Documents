@@ -235,7 +235,87 @@ Day 36: 5th Feb. 2026
 			https://pl-0205-dummybkt1.s3.ap-south-1.amazonaws.com/index.html
 			
 			
+
+
+	
+#######################
+Day 37: 6th Feb. 2026
+#######################				
+		
+
+	Access AWS Services :::
+	
+	Use AWS Cli : Command line utility to access AWS Services.
+	
+	https://docs.aws.amazon.com/cli/v1/userguide/cli_code_examples.html
+	
+	
+	Infra-Structure Management Team to Provision/Configure the AWS Resources ?
+	
+	
+		- Shell Scripts: 
+		
+		- AWS Cli 
+		
+			To automate the Resource Provisioning & Configurations
+		
+	
+		- IAC Tools : --> Based on Declarative Scripts - key:value  like json/yaml 
+		
+			Cloudformation / Terraform
 			
+		- SDK - Software Development Kit - boto3 Library
+				
+				
+	Install and Configure AWS Cli on Local Machines 
+	
+		- Pre-requisites :
+		
+				- IAM Role to enable CLI/S3 access to EC2 Instance 
+				
+				- Create AWS Access Key & Secret Key ::
+				
+					- asdad
+					
+					- Qaszxczxcdas
+				
+				- AWS Region 
+				
+					- ap-south-1
+					
+				- apt install unzip
+					
+				
+		- Install AWS Cli :
+			
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install			
+		
+			
+root@ip-172-31-11-27:~# aws configure
+
+AWS Access Key ID [None]: A<>3
+AWS Secret Access Key [None]: Q<>s
+Default region name [None]: ap-south-1
+Default output format [None]:
+			
+			
+			
+https://docs.aws.amazon.com/cli/v1/userguide/cli_s3_code_examples.html
+
+Storage: 
+
+AWS Database Services :::
+
+	-> MYSQL Server/Oracle/DB2
+		
+		
+		
+Next ::::
+
+	AWS Networking :::
+	
 			
 			
 			
